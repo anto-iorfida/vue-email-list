@@ -29,6 +29,9 @@ createApp({
         
     },
     mounted(){
-        
+        for(i=0;i < 10; i++){
+            // for ten times generate new email
+            this.getGenerateEmailApi()
+        }
     }
 }).mount('#app');
